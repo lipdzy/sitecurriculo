@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Design - Portfolio de Design de Interiores</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>STUDIO<span>DESIGN</span></h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=800&q=80') no-repeat center center/cover;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transformando espaços em experiências</h1>
+                <p>Design de interiores que reflete sua personalidade e estilo de vida</p>
+                <a href="#contact" class="btn-primary">Entre em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-wrapper">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=500&q=80" alt="Designer de Interiores" id="designer-photo">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Designer de Interiores Profissional</h3>
+                    <p class="designation">Arquiteta & Designer de Interiores</p>
+                    
+                    <div class="biography">
+                        <p>Com mais de 10 anos de experiência na criação de espaços funcionais e esteticamente impressionantes, trago uma abordagem única que combina criatividade, praticidade e atenção aos detalhes.</p>
+                        <p>Formada em Arquitetura e Urbanismo pela Universidade Federal da Paraíba, com especialização em Design de Interiores pela Universidade de São Paulo.</p>
+                        <p>Minha filosofia de design é centrada no cliente, criando ambientes que não apenas parecem extraordinários, mas também refletem a personalidade e atende às necessidades práticas de quem os habita.</p>
+                    </div>
+
+                    <div class="skills">
+                        <h4>Especialidades</h4>
+                        <ul>
+                            <li>Design Residencial</li>
+                            <li>Design Comercial</li>
+                            <li>Consultoria de Cores</li>
+                            <li>Planejamento Espacial</li>
+                            <li>Decoração de Interiores</li>
+                            <li>Gerenciamento de Projetos</li>
+                        </ul>
+                    </div>
+
+                    <div class="credentials">
+                        <h4>Formação & Certificações</h4>
+                        <div class="credential-item">
+                            <p class="year">2010-2015</p>
+                            <div>
+                                <p class="degree">Arquitetura e Urbanismo</p>
+                                <p class="institution">Universidade Federal da Paraíba</p>
+                            </div>
+                        </div>
+                        <div class="credential-item">
+                            <p class="year">2015-2017</p>
+                            <div>
+                                <p class="degree">Especialização em Design de Interiores</p>
+                                <p class="institution">Universidade de São Paulo</p>
+                            </div>
+                        </div>
+                        <div class="credential-item">
+                            <p class="year">2018</p>
+                            <div>
+                                <p class="degree">Certificação em Design Sustentável</p>
+                                <p class="institution">Instituto de Design Ecológico</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <div class="line"></div>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="residential">Residencial</button>
+                <button class="filter-btn" data-filter="commercial">Comercial</button>
+                <button class="filter-btn" data-filter="office">Escritórios</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item residential">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80" alt="Projeto Residencial">
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Residência Contemporânea</h3>
+                        <p>Redesign completo de uma casa de 250m² em estilo contemporâneo, com foco em espaços abertos e iluminação natural.</p>
+                        <ul class="project-info">
+                            <li><strong>Cliente:</strong> Família Silva</li>
+                            <li><strong>Localização:</strong> João Pessoa, PB</li>
+                            <li><strong>Ano:</strong> 2023</li>
+                            <li><strong>Categoria:</strong> Residencial</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item commercial">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80" alt="Projeto Comercial">
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Boutique Elegance</h3>
+                        <p>Design de interior para uma boutique de roupas de luxo, criando uma atmosfera sofisticada e acolhedora.</p>
+                        <ul class="project-info">
+                            <li><strong>Cliente:</strong> Elegance Moda</li>
+                            <li><strong>Localização:</strong> Recife, PE</li>
+                            <li><strong>Ano:</strong> 2022</li>
+                            <li><strong>Categoria:</strong> Comercial</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item office">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80" alt="Projeto de Escritório">
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Escritório Tech Start-up</h3>
+                        <p>Criação de um ambiente de trabalho moderno e colaborativo para uma start-up de tecnologia.</p>
+                        <ul class="project-info">
+                            <li><strong>Cliente:</strong> InnovaTech</li>
+                            <li><strong>Localização:</strong> João Pessoa, PB</li>
+                            <li><strong>Ano:</strong> 2023</li>
+                            <li><strong>Categoria:</strong> Escritório</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item residential">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80" alt="Projeto Residencial">
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Apartamento Minimalista</h3>
+                        <p>Transformação de um apartamento de 120m² seguindo princípios minimalistas e tons neutros.</p>
+                        <ul class="project-info">
+                            <li><strong>Cliente:</strong> Casal Oliveira</li>
+                            <li><strong>Localização:</strong> Fortaleza, CE</li>
+                            <li><strong>Ano:</strong> 2022</li>
+                            <li><strong>Categoria:</strong> Residencial</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item commercial">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80" alt="Projeto Comercial">
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Café Aroma</h3>
+                        <p>Design de interior para cafeteria com inspiração rústica-industrial, promovendo conforto e socialização.</p>
+                        <ul class="project-info">
+                            <li><strong>Cliente:</strong> Aroma Cafés</li>
+                            <li><strong>Localização:</strong> Natal, RN</li>
+                            <li><strong>Ano:</strong> 2021</li>
+                            <li><strong>Categoria:</strong> Comercial</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-item office">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1604328698692-f76ea9498e76?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&h=400&q=80" alt="Projeto de Escritório">
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Escritório Jurídico</h3>
+                        <p>Projeto para um escritório de advocacia tradicional com elementos contemporâneos, transmitindo sofisticação e confiança.</p>
+                        <ul class="project-info">
+                            <li><strong>Cliente:</strong> Santos & Associados</li>
+                            <li><strong>Localização:</strong> João Pessoa, PB</li>
+                            <li><strong>Ano:</strong> 2021</li>
+                            <li><strong>Categoria:</strong> Escritório</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Serviços</h2>
+                <div class="line"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Design Residencial</h3>
+                    <p>Transformação completa ou parcial de residências, apartamentos e casas de veraneio, criando espaços funcionais e esteticamente agradáveis.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Design Comercial</h3>
+                    <p>Projetos para lojas, restaurantes, cafés e outros espaços comerciais que atraem clientes e refletem a identidade da marca.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Design de Escritórios</h3>
+                    <p>Criação de ambientes de trabalho produtivos e inspiradores, adaptados às necessidades específicas de cada negócio.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Consultoria de Cores</h3>
+                    <p>Orientação especializada na seleção de esquemas de cores para interiores que refletem a personalidade e os objetivos do cliente.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3>Seleção de Mobiliário</h3>
+                    <p>Assessoria na escolha de móveis, iluminação e acessórios que complementam o design e atendem às necessidades funcionais.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ruler-combined"></i>
+                    </div>
+                    <h3>Gerenciamento de Projetos</h3>
+                    <p>Coordenação completa do projeto, desde o conceito inicial até a implementação final, garantindo resultados dentro do prazo e orçamento.</p>
+                </div>
+            </div>
+            <div class="process">
+                <h3>Como Trabalhamos</h3>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h4>Consulta Inicial</h4>
+                        <p>Reunião para discutir suas necessidades, preferências e objetivos para o espaço.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h4>Conceito & Proposta</h4>
+                        <p>Desenvolvimento de um conceito inicial e proposta de design com estimativa de orçamento.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h4>Design Detalhado</h4>
+                        <p>Criação de layouts, seleção de materiais, cores, mobiliário e iluminação.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h4>Implementação</h4>
+                        <p>Coordenação com fornecedores e prestadores de serviços para executar o projeto.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">5</div>
+                        <h4>Finalização</h4>
+                        <p>Instalação de elementos decorativos e revisão final para garantir que tudo esteja perfeito.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contato</h2>
+                <div class="line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Vamos Conversar</h3>
+                    <p>Estou à disposição para discutir seu próximo projeto.</p>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>83 991816152</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@studiodesign.com.br</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>João Pessoa, Paraíba - Brasil</span>
+                        </li>
+                    </ul>
+                    <div class="social-media">
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="whatsapp-form">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Serviço de Interesse</label>
+                            <select id="service" name="service" required>
+                                <option value="">Selecione um serviço</option>
+                                <option value="Residencial">Design Residencial</option>
+                                <option value="Comercial">Design Comercial</option>
+                                <option value="Escritório">Design de Escritórios</option>
+                                <option value="Consultoria">Consultoria de Cores</option>
+                                <option value="Mobiliário">Seleção de Mobiliário</option>
+                                <option value="Gerenciamento">Gerenciamento de Projetos</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <h2>STUDIO<span>DESIGN</span></h2>
+            </div>
+            <p>&copy; 2025 STUDIODESIGN. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
